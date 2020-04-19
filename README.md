@@ -1,4 +1,4 @@
-## Arduino Experiments :fire: :fire:##
+## Arduino Experiments :fire: :fire: ##
 List of Arduino Experiments performed by me
-### First Experiment???? ###
+### :one:  Experiment ###
 A simple experiment in which two leds blink within gap of two seconds.

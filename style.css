@@ -1,3 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightgray;
+}
+
+h1{
+    margin: 50px;
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Monda', sans-serif;
+    color:blue;
+}
+
+h1:hover{
+    color: brown;
+}
+
+section{
+    border: 1px solid black;
+    position: relative;
+    padding-top: 45px;
+    font-size: 125%;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Comic Neue', cursive;
+    background-color: lightyellow;
+    padding-bottom: 10px;
+}
+
+section:hover{
+    background-color:  burlywood;
+    border-color:brown;
+    border-width: 2px;
+}
+
+section > h2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 140%;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Courgette', cursive;
+}
+
+#title-1{
+    background-color: lightpink;
+}
+#title-1:hover{
+    background-color: lightcoral;
+}
+
+#title-2{
+    background-color: orange;
+}
+#title-2:hover{
+    background-color: orangered;
+}
 @media (min-width: 992px){
   .col-lg-4{
     width:33.33%;
